@@ -10,3 +10,12 @@ terraform {
     prefix  = "terraform-bastion-host"
   }
 }
+
+
+
+
+provider "google" {
+  project = "engineer-cloud-nprod"
+  region        = var.region
+  zone         = var.zone
+}
