@@ -1,5 +1,0 @@
-region = "us-central1"
-zone = "us-central1-c"
-machine_type = "n1-standard-1"
-image = "ubuntu-os-cloud/ubuntu-1804-lts"
-external_ip = "35.0.1.0"
