@@ -5,11 +5,8 @@ terraform {
       version = "4.58.0"
     }
   }
-  backend "http" {} 
-}
-
-provider "google" {
-  project     = "engineer-cloud-nprod"
-  region      = "us-central1"
-  zone        = "us-central1-c"
+  backend "gcs" {
+    bucket  = "dhruv-bastion-host-state-files"
+    prefix  = "terraform-bastion-host"
+  }
 }
