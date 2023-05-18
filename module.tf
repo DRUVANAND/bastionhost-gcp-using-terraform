@@ -13,8 +13,6 @@ backend "gcs" {
 
 provider "google" {
   project = "engineer-cloud-nprod"
-  region        = var.region
-  zone         = var.zone
 }
 
 module "bastion" {
