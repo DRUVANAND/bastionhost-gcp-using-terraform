@@ -6,7 +6,7 @@ terraform {
     }
   }
 backend "gcs" {
-    bucket  = "dhruv-bastion-host-state-files"
+    bucket  = "dhruv-backend-bucket"
     prefix  = "terraform-bastion-host"
   }
 }
