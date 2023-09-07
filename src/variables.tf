@@ -15,6 +15,6 @@ variable "machine_type" {
 
 variable "image" {
   description = "The image for the instances."
-  default     = "ubuntu-os-cloud/ubuntu-1804-lts"
+  default     = "ubuntu-os-cloud/ubuntu-2204-lts"
 }
 
