@@ -6,13 +6,13 @@ terraform {
     }
   }
 backend "gcs" {
-    bucket  = "dhruv-backend-bucket"
+    bucket  = "your-backend-bucket"
     prefix  = "terraform-bastion-host"
   }
 }
 
 provider "google" {
-  project = "engineer-cloud-nprod"
+  project = "your-project-id"
 }
 
 module "bastion" {
